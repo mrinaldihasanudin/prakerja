@@ -8,8 +8,7 @@ body {
   height: 650px;
   background-image: url(img/hero-img.jpg);
   background-repeat: none;
-  background-size: cover;
-  background-position-y: -100px;
+  background-position-y: -250px;
 }
 
 .hero button {
