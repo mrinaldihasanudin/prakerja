@@ -8,19 +8,33 @@ body {
   height: 750px;
   background-image: url(img/hero-img.jpg);
   background-repeat: none;
-  background-position-y: -200px;
+  background-position-y: -180px;
   h4 {
-    padding: 0 100px 0 100px;
+    padding: 0 200px 0 200px;
     line-height: 33px;
   }
 
   button {
-    margin-top: 450px;
+    margin-top: 400px;
+  }
+}
+
+.card-blog {
+  background-color: #010229;
+  color: white;
+  width: 18rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+  img {
+    margin-top: 25px;
+    border-radius: 50%;
   }
 }
 
 .card-rounded {
-  color: #312927;
+  background-color: black;
+  color: white;
   width: 18rem;
   margin-left: 20px;
   margin-right: 20px;
