@@ -26,7 +26,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <title>Portofolio</title>
   </head>
   <body>
     <div class="container mt-3 mb-3">
@@ -47,11 +47,11 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Portofolio</a>
-              <a class="nav-link" href="#">Blog</a>
-              <a class="nav-link" href="#">Team</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#tentang-saya">Tentang Saya</a>
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+              <a class="nav-link" href="#blog">Blog</a>
+              <a class="nav-link" href="#team">Team</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
         </div>
@@ -59,17 +59,23 @@
     </div>
     <div class="hero pt-5">
       <div class="container text-center">
-        <h1>Hello ,Welcome To My official Website</h1>
-        <h2>
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-          id est laborum.
-        </h2>
-        <button class="btn btn-primary">See More Portofolio</button>
+        <h1 class="mb-4">Hallo, Saya M.Rinaldi Hasanudin</h1>
+        <h4>
+          Telah mengikuti web developer selama 1 tahun. Dimulai sebagai frontend
+          developer dan terbiasa dengan pengkodingan HTML, CSS dan JavaScript.
+          Framework yang biasa digunakan adalah Bootstrap dan SCSS atau SASS
+          membantu untuk styling tampilan pada web
+        </h4>
+        <button
+          class="btn btn-primary"
+          onclick="window.location.href='#tentang-saya'"
+        >
+          Tentang Saya
+        </button>
       </div>
     </div>
-    <div class="container text-center mt-5 mb-5">
-      <h1 class="mb-5 mt-5">About Me</h1>
+    <div class="container text-center mt-5 mb-5" id="tentang-saya">
+      <h1 class="mb-5 mt-5">Tentang Saya</h1>
       <div class="row">
         <div class="col">
           <img
@@ -80,20 +86,17 @@
           />
         </div>
         <div class="col">
-          <h2 class="mt-5">Dodit</h2>
+          <h2 class="mt-5">M.Rinaldi Hasanudin</h2>
           <p class="mt-3">
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            Lulusan Sistem Komputer Universitas Komputer Indonesia tahun 2020.
+            Lahir di Bandung 10 Desember 1996. pernah mengikuti magang di
+            perusahaan PT. Akselerasi Edukasi Bangsa selama 10 bulan sebagai
+            frontend developer.
           </p>
         </div>
       </div>
     </div>
-    <div class="container text-center mt-5 mb-5">
+    <div class="container text-center mt-5 mb-5" id="portofolio">
       <h1 class="mt-5 mb-5">Portofolio</h1>
       <div class="row justify-content-center mb-4">
         <div class="col">
@@ -113,29 +116,6 @@
         <div class="col">
           <img
             src="https://source.unsplash.com/350x350/?technology"
-            class="mx-auto d-block"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="row justify-content-center mb-4">
-        <div class="col">
-          <img
-            src="https://source.unsplash.com/350x350/?car"
-            class="mx-auto d-block"
-            alt=""
-          />
-        </div>
-        <div class="col">
-          <img
-            src="https://source.unsplash.com/350x350/?bike"
-            class="mx-auto d-block"
-            alt=""
-          />
-        </div>
-        <div class="col">
-          <img
-            src="https://source.unsplash.com/350x350/?motorcycle"
             class="mx-auto d-block"
             alt=""
           />
@@ -165,7 +145,7 @@
         </div>
       </div>
     </div>
-    <div class="container text-center mb-5 mt-5">
+    <div class="container text-center mb-5 mt-5" id="blog">
       <h1 class="mt-5 mb-5">Blog</h1>
       <div class="row justify-content-center">
         <div class="card card-rounded">

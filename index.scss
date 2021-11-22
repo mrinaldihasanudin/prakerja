@@ -1,17 +1,21 @@
 body {
   color: white;
   background: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hero {
   color: white;
-  height: 650px;
+  height: 750px;
   background-image: url(img/hero-img.jpg);
   background-repeat: none;
-
-  background-position-y: -250px;
+  background-position-y: -200px;
+  h4 {
+    padding: 0 100px 0 100px;
+    line-height: 33px;
+  }
 
   button {
-    margin-top: 350px;
+    margin-top: 450px;
   }
 }
 
